@@ -1,0 +1,109 @@
+/* parte dos cards */
+.container-cards-projetos{
+    padding-bottom: 40px;
+    display: none;
+}
+.cards-projetos{
+    display: flex;
+    flex-direction: column;
+    background-color: #02091A;
+}
+.cards-linha{
+    display: flex;
+    justify-content: center;    
+    background-color:#02091A;
+    gap: 23px;
+    padding-top: 23px;
+}
+.card-normal{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: auto;
+    max-height: 440px;
+    border: 1px solid #59126b;
+    border-radius: 25px;
+    background-color: #02091A;
+    padding-top: 12px;
+}
+.card-normal:hover{
+    border: 1px solid #E06AFF;
+    border-style:double;
+}
+.card-longo{
+    display: flex;
+    flex-direction: column;
+    width: 683px;
+    height: auto;
+    max-height: 440px;
+    border: 1px solid #59126b;
+    border-radius: 25px;
+    background-color: #02091A;
+    padding-top: 12px;
+}
+.card-longo:hover{
+    border: 1px solid #E06AFF;
+    border-style:double;
+}
+
+/* parte das imagens */
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+.calculator-img{
+    border-radius: 15px;
+    width: 310px;
+    height: 220px;
+    max-height: 320px;
+}
+.card-longo .calculator .calculator-img {
+   width: 663px;
+   height: 220px;
+   max-height: 320px;
+}
+.section-icons{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.icones-img{
+    width: 30px;
+    height: auto;
+}
+
+/* parte dos titulos e das legendas */
+.titulos{
+    font-size: 20px;
+    padding-left: 15px;
+    color: aliceblue;
+    font-family: Poppins;
+}
+.descricao-projetos{
+    font-size: 12px;
+    padding-left: 15px;
+    font-family: Poopins;
+}
+
+/* parte dos botoes */
+.buttons-acesso{
+    display: flex;
+    gap: 12px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.button-click{
+    width: 105px;
+    height: 35px;
+    background-color: #02091A;
+    border: 1px solid #02091A;
+    border-radius: 40px;
+}
+.text-button{
+    font-family: Montserrat Alternates;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.button-click:hover{
+    border-color: #1C01C9;
+}
