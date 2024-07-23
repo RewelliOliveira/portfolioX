@@ -1,3 +1,4 @@
+/* ladding page */
 body{
     background-color: #02091A;
 }
@@ -9,6 +10,8 @@ body{
     padding-top: 50px;
 
 }
+
+/* cabeçalho */
 .logo{
     padding: 15px;
     width: 118px;
@@ -17,6 +20,8 @@ body{
     height: auto;
 }
 
+
+/* textos */
 p{
     color: #FFFFFF;
     font-family: Poppins;
@@ -40,6 +45,7 @@ span{
     text-align: center;
 }
 
+/* quadrados animação */
 .quadradinhos{
     display: flex;
     justify-content: center;
@@ -47,18 +53,17 @@ span{
     padding-top: 40px;
     background-color: #02091A;
 }
-
 .q1{
     width: 41px;
     height: 43px;
     transition: transform 0.1s linear;
 }
 
+/* parte de entrar em contato */
 .frase-isolada{
     text-align: center;
     padding-top: 20px;
 }
-
 .button{
     display: flex;
     justify-content: center;
@@ -95,16 +100,15 @@ span{
     margin-left: 10px;
     transition: transform 0.3s ease;
 }
-
 .button-get:hover .arrow-right {
     transform: translateX(10px);
 }
-
 .button-get img {
     width: 30px; 
     height: auto;
 }
 
+/* botao de mostrar mais */
 .mostrar-mais{
     display: flex;
     justify-content: center;
@@ -117,7 +121,6 @@ span{
     text-align: center;
     color: #ADADAD;
 }
-
 .more{
     display: flex;
     justify-content: center;
@@ -134,7 +137,6 @@ span{
     position: relative;
     animation: moveUpDown 1s ease-in-out infinite alternate;
 }
-
 @keyframes moveUpDown {
     0% {
         transform: translateY(0); /* Começa no centro */
