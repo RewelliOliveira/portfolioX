@@ -69,7 +69,7 @@ span{
     height: 65px;
     font-size: 24px;
     color: #FFFFFF;
-    border-width: 1px;
+    border-width: 2px;
     border-style:double;
     border-radius: 100px;
     border-color: #1C01C9;
@@ -80,15 +80,29 @@ span{
     background-color: #1C01C9;
 }
 .button-get a{
+    height: auto;
     font-family: Montserrat Alternates;
     font-weight: 500;
     color: #FFFFFF;
     text-decoration: none;
 }
-
 .ponto{
     font-weight: 900;
     color: #E06AFF;
+}
+.arrow-right {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.button-get:hover .arrow-right {
+    transform: translateX(10px);
+}
+
+.button-get img {
+    width: 30px; 
+    height: auto;
 }
 
 .mostrar-mais{
@@ -113,7 +127,6 @@ span{
     background-color: #02091A;
     border: none;
     padding-top: 35px;
-    cursor: pointer; /* Adiciona um cursor pointer */
 }
 .imagem-button-more{
     width: 38.5px;

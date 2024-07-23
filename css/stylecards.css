@@ -3,6 +3,9 @@
     padding-bottom: 40px;
     display: none;
 }
+.container-cards-projetos.show {
+    display: block;
+}
 .cards-projetos{
     display: flex;
     flex-direction: column;
@@ -22,12 +25,12 @@
     height: auto;
     max-height: 440px;
     border: 1px solid #59126b;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #02091A;
     padding-top: 12px;
 }
 .card-normal:hover{
-    border: 1px solid #E06AFF;
+    border: 2px solid #E06AFF;
     border-style:double;
 }
 .card-longo{
@@ -36,8 +39,8 @@
     width: 683px;
     height: auto;
     max-height: 440px;
-    border: 1px solid #59126b;
-    border-radius: 25px;
+    border: 2px solid #59126b;
+    border-radius: 15px;
     background-color: #02091A;
     padding-top: 12px;
 }

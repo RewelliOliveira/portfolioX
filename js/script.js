@@ -10,16 +10,18 @@ images.forEach((image, index) => {
     setInterval(() => rotateImage(image, index), 16); // Roda a função a cada 16ms (~60 fps)
 });
 
-var btn = document.querySelector('#show-or-hide');
-var container = document.querySelector('.container-cards-projetos');
+// script.js
+document.addEventListener('scroll', function() {
+    var hiddenContainer = document.getElementById('hiddenContainer');
+    var scrollPosition = window.scrollY || window.pageYOffset;
 
-btn.addEventListener('click', function() {
-    if (container.style.display === 'block') {
-        container.style.display = 'none';
+    // Ajuste esse valor conforme necessário para determinar quando mostrar o container
+    if (scrollPosition > 200) {
+        hiddenContainer.classList.add('show');
     } else {
-        container.style.display = 'block';
-        container.scrollIntoView({ behavior: 'smooth' });
+        hiddenContainer.classList.remove('show');
     }
 });
+
 
 
