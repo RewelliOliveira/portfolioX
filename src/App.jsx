@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import { Main } from './pages/main'
 
 function App() {
   return (
-    <div className='text-amber-200'>Hello world!</div>
+    <div>
+      <Main/>
+    </div>
   )
 }
 
