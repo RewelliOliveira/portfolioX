@@ -9,13 +9,13 @@ export const DropMenu = () => {
       </button>
       {isOpen && (
         <div className="absolute right-5 mt-2 w-48 border border-white">
-          <a href="#" className="block px-4 py-2 text-white">
+          <a href="#" className="block px-4 py-2">
             Home
           </a>
-          <a href="#" className="block px-4 py-2 text-white">
+          <a href="#" className="block px-4 py-2">
             Sobre
           </a>
-          <a href="#" className="block px-4 py-2 text-white">
+          <a href="#" className="block px-4 py-2">
             Contato
           </a>
         </div>
