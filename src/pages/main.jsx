@@ -27,13 +27,13 @@ export function Main() {
         </div>
       </header>
       <main>
-        <section className="flex flex-col gap-2 items-center">
+        <section className="flex flex-col gap-8 items-center">
           <div className="flex flex-col items-center gap-1">
             <h2 className="text-lg font-light">Hey, i am Rewelli Oliveira</h2>
             <h1 className="text-2xl">Full-Stack Development</h1>
           </div>
-          <button>
-            <p>See more</p>
+          <button className="flex justify-center items-center gap-12 px-5 py-3 border border-[#E06AFF] rounded-3xl hover:cursor-pointer hover:bg-[#E06AFF] transition-colors duration-300">
+            <p className="text-sm">See more</p>
             <img src="/arrow.svg" alt="" />
           </button>
         </section>
