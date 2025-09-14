@@ -26,7 +26,7 @@ export function Main() {
           <DropMenu />
         </div>
       </header>
-      <main>
+      <main className="flex flex-col gap-10">
         <section className="flex flex-col gap-8 items-center">
           <div className="flex flex-col items-center gap-1">
             <h2 className="text-lg font-light">Hey, i am Rewelli Oliveira</h2>
@@ -36,6 +36,26 @@ export function Main() {
             <p className="text-sm">See more</p>
             <img src="/arrow.svg" alt="" />
           </button>
+        </section>
+        <section className="flex flex-col gap-7 px-5 items-center">
+          <h1>About</h1>
+          <div className="flex flex-col gap-8 items-center">
+            <img src="/me.svg" alt="profile picture" />
+            <p className="text-sm font-normal text-justify">
+              Sou estudante de Engenharia de Software na Universidade Federal do
+              Ceará (UFC) e desenvolvedor front-end apaixonado por criar
+              interfaces intuitivas e funcionais. Minha jornada na programação
+              começou aos 15 anos, em uma escola profissionalizante, e desde
+              então venho me especializando em tecnologias como React,
+              TypeScript, Vite e CSS Modules. Durante a faculdade, participei de
+              projetos relevantes, como o desenvolvimento de um aplicativo de
+              gestão financeira e de um sistema de pedidos online para
+              restaurantes, experiências que reforçaram minha dedicação,
+              organização e proatividade. Busco sempre aprender e evoluir, com o
+              objetivo de contribuir em equipes de desenvolvimento entregando
+              soluções de qualidade e impacto.
+            </p>
+          </div>
         </section>
       </main>
       <footer></footer>
