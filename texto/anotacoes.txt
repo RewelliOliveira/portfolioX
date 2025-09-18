@@ -1,2 +1,0 @@
-tags
-<hr/> -> serve para criar uma linha na tela
