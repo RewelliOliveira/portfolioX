@@ -1,4 +1,5 @@
-import { DropMenu } from "../components/DropMenu";
+import { Projects } from "../components/projects";
+import { DropMenu } from "../components/UI/dropMenu";
 
 export function Main() {
   return (
@@ -36,6 +37,9 @@ export function Main() {
             <p className="text-sm">See more</p>
             <img src="/arrow.svg" alt="" />
           </button>
+        </section>
+        <section className="flex flex-col gap-7 px-5 items-center">
+          <Projects />
         </section>
         <section className="flex flex-col gap-7 px-5 items-center">
           <h1>About</h1>
